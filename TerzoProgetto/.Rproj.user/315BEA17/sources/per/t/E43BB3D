@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576686195469.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E43BB3D",
+    "lastKnownWriteTime" : 7809632558510793076,
+    "last_content_update" : 1576686195469,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "7AD6163B",
+        "caption" : "case",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=case&cache_key=7AD6163B",
+        "displayedObservations" : 682,
+        "environment" : "",
+        "expression" : "case",
+        "object" : "case",
+        "preview" : 0,
+        "totalObservations" : 682,
+        "variables" : 2
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 11,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

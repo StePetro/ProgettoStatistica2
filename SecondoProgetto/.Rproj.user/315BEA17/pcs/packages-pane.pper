@@ -1,0 +1,7 @@
+{
+    "installOptions" : {
+        "installDependencies" : true,
+        "installFromRepository" : true,
+        "libraryPath" : "C:/Users/ilpet/OneDrive/Documenti/R/win-library/3.6"
+    }
+}

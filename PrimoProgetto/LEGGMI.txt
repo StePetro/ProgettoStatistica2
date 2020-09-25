@@ -1,0 +1,1 @@
+Dato che molte delle immagini sono di dimensione proibitive per essere inserite in un documento pdf e il laboroso processo di costruzione del dataset, le ho allegato anche una cartella zip contenente l'intero progetto in modo tale da poter utilizzare i link verso le immagini con maggior risoluzione e visionare i file excel utilizzati per la creazione dei dataset se lo necessita.

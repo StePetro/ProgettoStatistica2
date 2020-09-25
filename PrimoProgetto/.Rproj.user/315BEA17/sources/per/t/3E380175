@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1574526156283.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3E380175",
+    "lastKnownWriteTime" : 8367723430004400160,
+    "last_content_update" : 1574526156283,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "32A72DC",
+        "caption" : "film.log",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=film.log&cache_key=32A72DC",
+        "displayedObservations" : "326",
+        "environment" : "",
+        "expression" : "film.log",
+        "object" : "film.log",
+        "preview" : "0",
+        "totalObservations" : "326",
+        "variables" : "17"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

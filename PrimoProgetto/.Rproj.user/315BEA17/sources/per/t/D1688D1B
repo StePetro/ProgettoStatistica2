@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1574607920349.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D1688D1B",
+    "lastKnownWriteTime" : 8367723430004400160,
+    "last_content_update" : 1574607920349,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "84FA1A9B",
+        "caption" : "AfilmCompleto.lm.pi",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=AfilmCompleto.lm.pi&cache_key=84FA1A9B",
+        "displayedObservations" : "10",
+        "environment" : "",
+        "expression" : "AfilmCompleto.lm.pi",
+        "object" : "AfilmCompleto.lm.pi",
+        "preview" : "0",
+        "totalObservations" : "10",
+        "variables" : "3"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

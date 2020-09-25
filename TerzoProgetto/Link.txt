@@ -1,0 +1,49 @@
+Il dataset utilizzato è lo stesso del primo progetto.
+
+- Link informazioni economiche:
+  https://www.the-numbers.com/movie/budgets/all
+  Importato utilizzando (vedere l'immagine apposita nella cartella "immagini"):
+  http://www.convertcsv.com/html-table-to-csv.htm
+
+- Esempio di pagina facebook da cui ho preso manualmente i like:
+  https://www.facebook.com/SylvesterStallone/
+
+- Link informazioni prese da IMDB come il rating e le informazioni generali sul film:
+  https://datasets.imdbws.com
+
+- Link dove ho prelevato il numero di morti nei film:
+  https://figshare.com/articles/On_screen_movie_kill_counts_for_hundreds_of_films/889719
+  Di cui ho verificato la correttezza rispetto alla fonte originale:
+  http://www.moviebodycounts.com/index.htm
+
+- Link da cui è stata prelevata la tabella delle trame di Wikipedia e gli attori:
+  https://www.kaggle.com/jrobischon/wikipedia-movie-plots
+  La validità della tabella è stata confermata utilizzando il servizio di querying di Wikipedia:
+  https://query.wikidata.org/#%23%20How%20can%20I%20query%20Wikidata%20for%20a%29%20all%20films%20for%20a%20given%20year%2C%20and%20b%29%20all%20actors%20and%20roles%20for%20that%20film%3F%0ASELECT%20%3Ffilm%20%3FfilmLabel%20%3Fpublication_date%20%28group_concat%28%3Fcast_member_label%29%20as%20%3Fcast_member_labels%29%20WHERE%20%7B%0A%20%20%3Ffilm%20wdt%3AP31%20wd%3AQ11424%20%3B%0A%20%20%20%20%20%20%20%20wdt%3AP161%20%3Fcast_member%20%3B%0A%20%20%20%20%20%20%20%20wdt%3AP577%20%3Fpublication_date%20.%0A%20%20%3Fcast_member%20rdfs%3Alabel%20%3Fcast_member_label%20.%0A%20%20FILTER%20%28lang%28%3Fcast_member_label%29%20%3D%20%22en%22%29%0A%20%20FILTER%20%28%3Fpublication_date%20%3E%3D%20%221975-00-00T00%3A00%3A00Z%22%5E%5Exsd%3AdateTime%29%0A%20%20FILTER%20%28%3Fpublication_date%20%3C%20%221976-00-00T00%3A00%3A00Z%22%5E%5Exsd%3AdateTime%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%20%7D%0AGROUP%20BY%20%3Ffilm%20%3FfilmLabel%20%3Fpublication_date
+
+- Link della ricerca utilizzata per contare il numero di riferimenti sessuali nei plot:
+  https://www.researchgate.net/figure/Most-frequently-used-words-in-sexual-self-schemas_tbl1_279864183
+  
+- Esempio di pagina di wikirank da cui sono state estratte manualmente le informazioni della pagina wikipedia dei film:
+  http://wikirank.net/en/Pulp%20Fiction
+  
+- Tabella da cui ssono state ricavate le nomination fino al 2016:
+  https://www.statcrunch.com/app/index.php?dataid=323171
+  La validità della tabella è stata verificata controllando il database ufficiale degli ACADEMY AWARDS, da cui sono state prelevate anche le nomination successive al 2016:
+  http://awardsdatabase.oscars.org/
+  
+-- Le varie tabelle sono state successivamente rielaborate per eliminare eventuali duplicati od osservazioni non corrette.
+
+- Comando Excel utilizzato per calcolare la lunghezza della trama:
+  =LUNGHEZZA(ANNULLA.SPAZI([@Trama]))-LUNGHEZZA(SOSTITUISCI([@Trama];" ";""))+1
+  
+- Comando Excel per calcolare il numero di attori:
+  =TRONCA((LUNGHEZZA(ANNULLA.SPAZI([@Cast]))-LUNGHEZZA(SOSTITUISCI([@Cast];" ";""))+1)/2)
+  
+- Comando Excel per calcolare il numero di rifetimenti sessuali netti:
+  =(LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("sex");"")))/LUNGHEZZA("sex") + (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("feel");"")))/LUNGHEZZA("feel")+ (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("time");"")))/LUNGHEZZA("time")+ (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("know");"")))/LUNGHEZZA("know")+ (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("sexual");"")))/LUNGHEZZA("sexual")+ (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("relationship");"")))/LUNGHEZZA("relationship")+ (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("year");"")))/LUNGHEZZA("year")+ (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("love");"")))/LUNGHEZZA("love")+ (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("man");"")))/LUNGHEZZA("man")+ (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("thing");"")))/LUNGHEZZA("thing")+ (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("make");"")))/LUNGHEZZA("make") + (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("guy");"")))/LUNGHEZZA("guy")+ (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("people");"")))/LUNGHEZZA("people")+ (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("try");"")))/LUNGHEZZA("try")+ (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("person");"")))/LUNGHEZZA("person")+ (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("friend");"")))/LUNGHEZZA("friend")+ (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("thought");"")))/LUNGHEZZA("thought")+ (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("good");"")))/LUNGHEZZA("good")  + (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("experience");"")))/LUNGHEZZA("experience")+ (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("start");"")))/LUNGHEZZA("start")+ (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("woman");"")))/LUNGHEZZA("woman")+ (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("boyfriend");"")))/LUNGHEZZA("boyfriend")+ (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("life");"")))/LUNGHEZZA("life") + (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("partner");"")))/LUNGHEZZA("partner") + (LUNGHEZZA([@Trama])-LUNGHEZZA(SOSTITUISCI(MAIUSC([@Trama]);MAIUSC("lot");"")))/LUNGHEZZA("lot")
+  
+- Comando Excel per calcolare la percentuale di rifetimenti sessuali nella trama:
+  =ARROTONDA(([@RiferimentiSessualiNetti]/[@LunghezzaTrama])*100;3)
+  
+--- Da notare che la documentazione contiene due pagine senza contenuti, di indice e intestazione e una pagina quasi completamente occupata dallo scatterplot.

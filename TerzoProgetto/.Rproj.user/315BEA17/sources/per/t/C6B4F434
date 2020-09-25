@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576842773578.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C6B4F434",
+    "lastKnownWriteTime" : 3467807035693735968,
+    "last_content_update" : 1576842773578,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "5bd5207fa0d24fab94c0d045fba1055c",
+        "name" : "case.lm",
+        "title" : "case.lm"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 18,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}

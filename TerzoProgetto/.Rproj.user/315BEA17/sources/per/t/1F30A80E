@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576332794956.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1F30A80E",
+    "lastKnownWriteTime" : 8171063716523369248,
+    "last_content_update" : 1576332794956,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "c4d935ce8cbd4939b9720b965b95dcd5",
+        "name" : "nom.glm",
+        "title" : "nom.glm"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}

@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576317868401.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9E807755",
+    "lastKnownWriteTime" : 7810123700365321520,
+    "last_content_update" : 1576317868401,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "C0E1DAB2",
+        "caption" : "nom.log",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=nom.log&cache_key=C0E1DAB2",
+        "displayedObservations" : "326",
+        "environment" : "",
+        "expression" : "nom.log",
+        "object" : "nom.log",
+        "preview" : "0",
+        "totalObservations" : "326",
+        "variables" : "18"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

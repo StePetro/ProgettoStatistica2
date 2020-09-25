@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576760227872.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A6553239",
+    "lastKnownWriteTime" : 2466321603649696627,
+    "last_content_update" : 1576760227872,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "9B4C0FDC",
+        "caption" : "valcol",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=valcol&cache_key=9B4C0FDC",
+        "displayedObservations" : 12,
+        "environment" : "",
+        "expression" : "valcol",
+        "object" : "valcol",
+        "preview" : 0,
+        "totalObservations" : 12,
+        "variables" : 56
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 16,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

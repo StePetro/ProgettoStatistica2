@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576330833814.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "926EE3AE",
+    "lastKnownWriteTime" : 1419386084848,
+    "last_content_update" : 1576330833814,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "5EB89DAC",
+        "caption" : "nomScambiata",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=nomScambiata&cache_key=5EB89DAC",
+        "displayedObservations" : 326,
+        "environment" : "",
+        "expression" : "nomScambiata",
+        "object" : "nomScambiata",
+        "preview" : 0,
+        "totalObservations" : 326,
+        "variables" : 18
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

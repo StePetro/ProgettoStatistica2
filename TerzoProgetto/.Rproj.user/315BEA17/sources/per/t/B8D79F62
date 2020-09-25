@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576757551337.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B8D79F62",
+    "lastKnownWriteTime" : 2701007499392,
+    "last_content_update" : 1576757551337,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "6992db18819742f69c2c287a343dcdc7",
+        "name" : "gpars",
+        "title" : "gpars"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 15,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}

@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1574595930555.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "CBA0AECA",
+    "lastKnownWriteTime" : 7809632558510793076,
+    "last_content_update" : 1574595930555,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "F46F0E39",
+        "caption" : "film.log.noTitanic",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=film.log.noTitanic&cache_key=F46F0E39",
+        "displayedObservations" : 325,
+        "environment" : "",
+        "expression" : "film.log.noTitanic",
+        "object" : "film.log.noTitanic",
+        "preview" : 0,
+        "totalObservations" : 325,
+        "variables" : 17
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

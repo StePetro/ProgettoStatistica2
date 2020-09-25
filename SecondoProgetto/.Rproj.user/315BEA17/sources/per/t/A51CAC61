@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1576334857520.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "689937652",
+    "id" : "A51CAC61",
+    "lastKnownWriteTime" : 1576417784,
+    "last_content_update" : 1576417784374,
+    "path" : "C:/Users/ilpet/OneDrive/Desktop/ProgettoStatistica/script.R",
+    "project_path" : "script.R",
+    "properties" : {
+        "cursorPosition" : "265,60",
+        "docOutlineSize" : "224.21045273319487",
+        "docOutlineVisible" : "1",
+        "scrollLine" : "255"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

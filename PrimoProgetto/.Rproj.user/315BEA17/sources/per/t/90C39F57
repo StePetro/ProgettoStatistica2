@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1574505485626.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "90C39F57",
+    "lastKnownWriteTime" : 3547202822600749685,
+    "last_content_update" : 1574505485626,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "38A5064F",
+        "caption" : "film",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=film&cache_key=38A5064F",
+        "displayedObservations" : "326",
+        "environment" : "",
+        "expression" : "film",
+        "object" : "film",
+        "preview" : "0",
+        "totalObservations" : "326",
+        "variables" : "17"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
